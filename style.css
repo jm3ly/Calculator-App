@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;   
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(230, 242, 243);
 }
 
 #calculator {
@@ -21,6 +21,7 @@ body {
     text-align: left;
     border: none;
     background-color: rgb(188, 162, 226);
+    color: white;
 }
 
 #keys {
@@ -38,4 +39,16 @@ button {
     background-color: hsl(20, 0, 30);
     font-size: 3rem;
     cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(141, 102, 201);
+}
+
+button:active{
+    background-color:rgb(119, 60, 207);
+}
+
+.operatorBtn{
+    background-color: rgb(153, 35, 231);
 }
